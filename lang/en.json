@@ -5,7 +5,7 @@
             "WS": "Melee"
         },
         "weapon":{
-            "weaponType": "Weapon Type:",
+            "weaponType": "Weapon Type",
             "damage": "Damage",
             "range": "Range",
             "penetration": "Armour Penetration",

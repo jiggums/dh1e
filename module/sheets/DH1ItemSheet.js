@@ -4,16 +4,15 @@ export default class DH1ItemSheet extends ItemSheet {
     }
 
     getData() {
-        // Retrieve base data structure.
-        const context = super.getData();
-    
-        // Use a safe clone of the item data for further operations.
-        const itemData = context.item;
-    
-        // Add the actor's data to context.data for easier access, as well as flags.
-        context.system = itemData.system;
-        context.flags = itemData.flags;
-    
-        return context;
+        const baseData = super.getData();
+        let sheetData = {
+          owner: this.item.isOwner,
+          editable: this.isEditable,
+          item: baseData.item,
+          data: baseData.item.data.data,
+          config: CONFIG.dh1e
+        };
+
+        return sheetData;
       }
 }
