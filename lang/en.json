@@ -1,0 +1,23 @@
+{
+    "dh1e": {
+        "attack": {
+            "BS": "Ranged",
+            "WS": "Melee"
+        },
+        "weapon":{
+            "weaponType": "Weapon Type:",
+            "damage": "Damage",
+            "range": "Range",
+            "penetration": "Armour Penetration",
+            "reload": "Reload Time",
+            "rof": "Rate of Fire",
+            "clip": "Magazine Size"
+        },
+        "itemBase": {
+            "weight": "Weight",
+            "cost": "Value",
+            "availability": "Item Availability",
+            "description": "Item Description"
+        }
+    }
+}

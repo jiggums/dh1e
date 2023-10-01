@@ -1,0 +1,45 @@
+{
+    "Actor":{},
+    "Item":{
+        "types":[
+            "Weapon",
+            "Armour",
+            "Upgrade",
+            "Ammo",
+            "Gear"
+        ],
+        "templates":{
+            "itemBase":{
+                "description":"",
+                "weight":0,
+                "cost":0,
+                "availability":0
+            }
+        },
+        "Weapon":{
+            "templates":["itemBase"],
+            "weaponType": "Ranged",
+            "damage":0,
+            "range":0,
+            "penetration":0,
+            "reload":0,
+            "rof":0,
+            "clip":0
+        },
+        "Armour":{
+            "ap":0,
+            "templates":["itemBase"]
+        },
+        "Upgrade":{
+            "templates":["itemBase"]
+        },
+        "Ammo":{
+            "amount":0,
+            "templates":["itemBase"]
+        },
+        "Gear":{
+            "gearType": "Consumable",
+            "templates":["itemBase"]
+        }
+    }
+}

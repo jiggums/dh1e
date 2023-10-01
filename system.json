@@ -1,0 +1,29 @@
+{
+	"name": "dh1e",
+	"title": "Dark Heresy 1E",
+	"description": "A grimdark roleplaying game set in the dark future of the 41st Millenia",
+	"author": "Jiggy",
+	"version": 0.01,
+	"minimumCoreVersion": "11.311",
+	"compatibleCoreVersion": "11.311",
+	"esmodules": [
+		"dh1e.js"
+	],
+	"styles":[
+		"dh1e.css"
+	],
+	"packs": [
+
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"gridDistance": 1,
+	"gridUnits": "m",
+	"primaryTokenAttribute": "wounds",
+	"initiative": "1d10+ @ag_bonus"
+}
